@@ -1,0 +1,29 @@
+.itemContainer > h2 {
+    color: rgb(93, 185, 238);
+}
+
+.itemContainer button {
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 30%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.itemContainer button:hover {
+    background-color: rgb(163, 160, 160);
+    color: white;
+    box-shadow: 5px 10px 12px rgba(0,0,0,0.24);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    .itemContainer > img {
+      width: 100%;
+    }
+    .itemContainer > button{
+      width: 40%;
+      font-size: 16px;
+      padding: 5px;
+    }
+  }

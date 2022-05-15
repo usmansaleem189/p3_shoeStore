@@ -1,0 +1,40 @@
+.homeContainer {
+    text-align: center;
+    padding-top: 50px;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-weight: bold;
+}
+
+.homeContainer button {
+    margin-top: 50px;
+    width: 20%;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.homeContainer button:hover {
+    background-color: rgb(163, 160, 160);
+    color: white;
+    box-shadow: 5px 10px 12px rgba(0,0,0,0.24);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    .homeContainer {
+      width: 90%;
+      text-align: center;
+      font-size: medium;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.6;
+    }
+    .homeContainer button {
+        width: 35%;
+    }
+
+}

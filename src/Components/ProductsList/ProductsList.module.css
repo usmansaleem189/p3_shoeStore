@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container > div {
+    margin: 10px;
+    
+}
+
+.linkContainer > img {
+    width: 250px;
+}
+
+.container button {
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 80%;
+}
+
+.container button:hover {
+        background-color: rgb(163, 160, 160);
+        color: white;
+        box-shadow: 5px 10px 12px rgba(0,0,0,0.24);
+        cursor: pointer;
+}
+
+.container div:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
